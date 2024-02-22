@@ -1,0 +1,115 @@
+
+*{
+    color: white;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:roboto;
+  }
+  
+  
+  body{
+    background-image: linear-gradient( 115deg, rgba(0, 65, 170, 0.8), rgba(140, 148, 23, 0.7) ), url(https://cdn.kicksdigital.com/hifiindy.com/2024/02/656a04fe37eade00b9353a34.jpeg);
+    background-size: cover;
+  }
+
+  #title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  #description{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  #survey-form {
+    background-color:rgba(0, 0, 50, 0.85);
+    padding: 40px;
+    border-radius: 1.25rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    width: 70vw;
+    height: auto;
+
+}
+
+.user-info label{
+    text-align:left;
+    font-size: 20px;
+
+}
+.user-info input{
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    padding: 1rem 0.5rem;
+    color: #495057;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.user-info select{
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 1rem 0.5rem;
+    color: #495057;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: .6rem;
+    font-size: 18px;
+}
+
+.radio input{
+  margin: 6px;
+}
+
+.check{
+  margin: 30px 0;
+
+}
+.inline{
+  display:flex;
+  margin:15px 0;
+}
+
+.inline input{
+  margin: 3px 10px;
+}
+
+.textarea-label{
+  font-size: 20px;
+  
+}
+textarea{
+  width: 100%;
+  height: 170px;
+  border-radius: .6rem;
+  color:#495057;
+  padding:10px;
+  margin-top:6px;
+}
+
+#submit{
+  color:#495057;
+  border-radius: .5rem;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-style: bold;
+  background-color: rgba(255, 241, 83, 0.9);
+
+}
+

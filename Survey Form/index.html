@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</header>
+<body>
+  <h1 id="title">2024 NBA All-Star Weekend Survey</h1>
+  <p id="description"> We want to hear your thoughts! </p>
+  <form id="survey-form"> 
+    <section class="user-info">
+        <label id="name-label">Name 
+            <input type="text" placeholder="Enter your name" id="name" required/> 
+        </label>
+        <label id="email-label">Email 
+            <input type="email" placeholder="Enter your email" id="email" required/>
+        </label>
+        <label id="number-label">Age
+            <input type="number" id="age" min="18" max="60" placeholder="Enter your age."required/>
+        </label>
+        <label id="gender-label">Which option best describes your gender?
+            <select id="dropdown"> 
+                <option value="">Select gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+                <option value="4">Prefer not to say</option>
+            </select>
+        </label>
+    </section>
+    <section class="opinion">
+        <fieldset class="radio">
+            <legend>Did you enjoy All-Star Weekend?</legend>
+                    <div>
+                        <input type="radio" value="Yes" name="Yes" checked/>
+                        <label for="Yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="No" name="No"/>
+                        <label for="No">No</label>
+                    </div>
+        </fieldset>
+        <fieldset class="check">
+            <legend>Which event(s) did you watch? (Check all that apply)</legend>
+            <label class="inline">
+                <input type="checkbox" class="inline" value="3-Point Contest"/>3-Point Contest
+            </label>    
+            <label class="inline">
+                <input type="checkbox" class="inline" value="Dunk Contest"/>Dunk Contest
+            </label>
+            <label class="inline">
+                <input type="checkbox" class="inline" value="Skills Competition"/>Skills Competition
+            </label>
+            <label class="inline">
+                <input type="checkbox" class="inline" value="Rising Stars Game"/>Rising Stars Game
+            </label>
+            <label class="inline">
+                <input type="checkbox" class="inline" value="All-Star Game"/>All-Star Game
+            </label>
+        </fieldset>
+        <label class="textarea-label">Comments/Suggestions
+            <textarea type="textarea"> </textarea>
+        </label>
+        
+    </section>
+    <button id="submit" type="submit">SUBMIT</submit>
+  </form>
+</body>
+
+</html>
+
 
